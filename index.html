@@ -29,8 +29,10 @@
     <div id="done">To wszystkie zdjęcia</div>
   </div>
 
-  <script src="https://unpkg.com/swing@3.1.4/dist/swing.min.js"></script>
-  <script>
+<script src="https://unpkg.com/rebound@0.0.13/rebound.min.js"></script>
+<script src="https://unpkg.com/hammerjs@2.0.8/hammer.min.js"></script>
+<script src="https://unpkg.com/swing@3.1.4/dist/swing.min.js"></script>
+
     const cards = Array.from(document.querySelectorAll('#stack li')).reverse();
     const stack = Swing.Stack({
       allowedDirections: [Swing.Direction.LEFT] // dodaj RIGHT jeśli chcesz obie strony
